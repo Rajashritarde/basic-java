@@ -1,0 +1,19 @@
+package lab2;
+interface Lambda {
+	public void Demo(
+}
+
+
+public class Data {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Lambda lambda=()->{
+	System.out.println("Statement 1");
+	System.out.println("Statement 2");
+};
+lambda.Demo();
+
+	}
+
+}
