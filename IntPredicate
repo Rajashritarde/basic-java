@@ -1,0 +1,16 @@
+package lab2;
+import java.util.function.IntPredicate;
+
+
+public class Data {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IntPredicate L=i-> i<18;
+		IntPredicate M=i->i>10;
+
+System.out.println(L.and(M).test(13));
+
+	}
+
+}
