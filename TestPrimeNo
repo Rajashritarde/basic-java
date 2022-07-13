@@ -1,0 +1,27 @@
+package com.ptpl;
+
+public class TestPrimeNo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i,n=17;
+i=2;
+while(i<n)
+{
+	if(n%i==0)
+	{
+		System.out.println(n+"Is not prime");
+		break;
+	}
+	i++;
+}
+if(i==n)
+System.out.println(n+"Is a prime");
+	}
+
+}
+
+
+
+
+o/p-17Is a prime
