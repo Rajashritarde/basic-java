@@ -1,0 +1,33 @@
+package Loop;
+
+import java.util.Scanner;
+
+public class WhileLoopEvenNo {
+	public static void main(String[] args) {
+		
+		//odd no
+		int n,i, sum=0;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter the rang: -");
+		n=sc.nextInt();
+		i=1;
+		while(i<=n)
+		{
+			int c=i*2;
+			System.out.print(c +" + ");
+			sum=sum+c;
+			i++;
+		}
+
+		System.out.print("\n Sum="+sum);
+		}
+	
+
+}
+
+o/p
+
+Enter the rang: -
+5
+2 + 4 + 6 + 8 + 10 + 
+ Sum=30
